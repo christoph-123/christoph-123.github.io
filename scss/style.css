@@ -113,41 +113,10 @@ a:link, a:visited {
 
 .footer {
   color: #555555;
-  margin-top: 15rem;
-  margin-bottom: 1rem;
-}
-@media (max-height: 950px) {
-  .footer {
-    margin-top: 27rem;
-    margin-bottom: 3.1rem;
-  }
-}
-@media (max-height: 899px) {
-  .footer {
-    margin-top: 24rem;
-    margin-bottom: 3.1rem;
-  }
-}
-@media (max-height: 829px) {
-  .footer {
-    margin-top: 20rem;
-    margin-bottom: 3.1rem;
-  }
-}
-@media (max-height: 761px) {
-  .footer {
-    margin-top: 17rem;
-    margin-bottom: 3.1rem;
-  }
-}
-@media (max-height: 700px) {
-  .footer {
-    margin-top: 13rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-height: 820px) and (min-width: 999px) {
-  .footer {
-    margin-top: 7rem;
-  }
+  text-align: center;
+  width: 20rem;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
